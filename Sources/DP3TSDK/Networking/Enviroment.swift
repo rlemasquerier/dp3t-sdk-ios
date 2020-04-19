@@ -17,9 +17,9 @@ public enum Enviroment {
     var discoveryEndpoint: URL {
         switch self {
         case .prod:
-            return URL(string: "https://discovery.dpppt.org/discovery.json")!
+            return URL(string: "https://rlemasquerier.github.io/discovery_rn.json")!
         case .dev:
-            return URL(string: "https://discovery.dpppt.org/discovery_dev.json")!
+            return URL(string: "https://rlemasquerier.github.io/discovery_rn.json")!
         }
     }
 }
